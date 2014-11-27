@@ -1,6 +1,6 @@
-#Kiss My BaaS
+#Spitfire Server
 
-##Open source BaaS (only storage for now)
+##Open source BaaS Server (only storage for now)
 
 ###WARNING: Will generate endpoints on the fly for EVERYONE.
 
