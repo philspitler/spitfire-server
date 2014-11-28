@@ -1,3 +1,3 @@
 module.exports = {
-  database: 'autoapi'
+  database: 'spitfire'
 };
