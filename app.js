@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var config = require('./config');
 
-var api = require('./routes/api')(config);
+var api = require('spitfire-express')(config);
 
 var app = express();
 
