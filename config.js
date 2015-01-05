@@ -1,3 +1,4 @@
 module.exports = {
-  database: 'spitfire'
+  database: 'spitfire',
+  environment: 'production'
 };
