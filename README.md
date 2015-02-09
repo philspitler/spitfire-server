@@ -2,6 +2,4 @@
 
 ##Open source BaaS Server (only storage for now)
 
-###WARNING: Will generate endpoints on the fly for EVERYONE.
-
-Use with caution until this is handled by setting the environment to development or production or through API keys.
+###NOTE: Will not generate endpoints on the fly when the environment is set to 'production'.  This is a security measure so people can't hit your API and generate endpoints "willy-nilly" when in production.
