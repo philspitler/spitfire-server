@@ -8,6 +8,7 @@
 ###Installation
 ```bash
 $ git clone https://github.com/spitfireio/spitfire-server.git
+$ cd spitfire-server
 $ npm install
 ```
 
