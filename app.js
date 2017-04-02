@@ -17,7 +17,7 @@ var allowCrossDomain = function(req, res, next) {
 }
 app.use(allowCrossDomain);
 
-var api = require('spitfire-express')('testapp', app.get('env'));
+var api = require('spitfire-express')(process.env.MONGODB_URI, app.get('env'));
 // view engine setup
 //app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'ejs');
